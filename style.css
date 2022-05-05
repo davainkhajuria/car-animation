@@ -7,7 +7,7 @@ body{
     animation: bodyshake linear 6s infinite;
 }
 .sky{
-    background-image: url(/content/sky.jpg);
+    background-image: url(./content/sky.jpg);
     height: 100vh;
     width: 100%;
     position: absolute;
@@ -17,14 +17,14 @@ body{
 .trees{
     height: 96vh;
     width: 800%;
-    background-image: url(/content/trees.png);
+    background-image: url(./content/trees.png);
     position: absolute;
     /* background-size: cover; */
     bottom: 17vh;
     animation: skymove linear 4s infinite;
 }
 .track{
-    background-image: url(/content/track.png);
+    background-image: url(./content/track.png);
     height: 30vh;
     width: 800%;
     background-repeat: repeat-x;
@@ -35,7 +35,7 @@ body{
 .car{
     height: 13vh;
     width: 42vh;
-    background-image: url(/content/car_body.png);
+    background-image: url(./content/car_body.png);
     position: absolute;
     background-size: cover;
     top: 72vh;
